@@ -1,0 +1,30 @@
+@use "variables" as v;
+
+header {
+  background-color: v.$color1;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+}
+
+section {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+
+  .side-bar {
+    width: 200px;
+  }
+
+  aside {
+    background-color: v.$color2;
+    border-radius: 1rem;
+  }
+
+  main {
+    background-color: v.$color3;
+    border-radius: 1rem;
+  }
+}
+
+
+

@@ -1,0 +1,13 @@
+nav {
+  align-items: center;
+  margin: 0 1.5rem;
+
+  > div {
+    padding: 1rem;
+    border-radius: 1rem;
+  }
+
+  > ul {
+    gap: 1rem;
+  }
+}

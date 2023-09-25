@@ -1,0 +1,19 @@
+.progress-hw {
+  margin: 50px;
+
+  .bar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    
+
+    #file {
+      border: none;
+      overflow: hidden;
+      border-radius: 10px;      
+    }
+  }
+
+
+}

@@ -1,0 +1,18 @@
+.display-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.list-s-n {
+  list-style-type: none;
+}
+
+.btn-effect {
+  padding: 1rem;
+  border-radius: 1rem;
+  cursor: pointer;
+
+  &:hover {
+    background-color: rgb(150, 149, 149);
+  }
+}
