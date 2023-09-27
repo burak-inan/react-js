@@ -20,11 +20,11 @@ const Menu = () => {
             className={mainItem.children && "collapsable"}
           >
             {mainItem.children ? (
-              <div onClick={handleCollapse}>{mainItem.title}</div>
+              <div onClick={handleCollapse}> {mainItem.title} </div>
             ) : (
               <div>
-                <Link to={mainItem.to}>{mainItem.title}</Link>
-              </div>
+                <Link to={mainItem.to}> {mainItem.title} </Link>
+              </div> 
             )}
 
             {mainItem.children && (
