@@ -13,7 +13,7 @@ const Notes = ({formData, updateNotes}) => {
   return (
     <Card className="p-2 border-success">
       <Row className="g-3">
-        {formData.map( (note) => (
+        {formData.slice().reverse().map( (note) => (
           <Col md={4} key={note.id} className="">
             <Note {...note} removeNote={removeNote}/>
           </Col>
