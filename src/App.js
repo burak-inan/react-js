@@ -57,6 +57,7 @@ import Exchange from "./components/27-context-api/exchange";
 import ClassComp from "./components/22-class-component/class-comp";
 import axios from "axios";
 import HelloReact from "./components/02-hello-react/hello-react";
+import Loader from "./components/HomeWorks/loader/loader";
 
 const App = () => {
 
@@ -154,6 +155,7 @@ const App = () => {
                 <Route path="/product-cards" element={<ProductCards />} />
                 <Route path="/progress-bar" element={<ProgressBarHw />} />
                 <Route path="/todo-app" element={<TodoApp />} />
+                <Route path="/loader" element={<Loader />} />
               </Routes>
  
         </Col>

@@ -267,6 +267,10 @@
       {
         "to": "/todo-app",
         "title": "Todo Cards"
+      },
+      {
+        "to": "/loader",
+        "title": "Loader"
       }
     ]
   }
