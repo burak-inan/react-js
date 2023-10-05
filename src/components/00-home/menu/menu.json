@@ -271,7 +271,12 @@
       {
         "to": "/loader",
         "title": "Loader"
+      },
+      {
+        "to": "/not-found-page",
+        "title": "Not Found Page"
       }
+      
     ]
   }
 ]

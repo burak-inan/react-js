@@ -58,6 +58,7 @@ import ClassComp from "./components/22-class-component/class-comp";
 import axios from "axios";
 import HelloReact from "./components/02-hello-react/hello-react";
 import Loader from "./components/HomeWorks/loader/loader";
+import NotFoundPage from "./components/HomeWorks/not-found-page/not-found-page";
 
 const App = () => {
 
@@ -156,6 +157,7 @@ const App = () => {
                 <Route path="/progress-bar" element={<ProgressBarHw />} />
                 <Route path="/todo-app" element={<TodoApp />} />
                 <Route path="/loader" element={<Loader />} />
+                <Route path="/not-found-page" element={<NotFoundPage />} />
               </Routes>
  
         </Col>

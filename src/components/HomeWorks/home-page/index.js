@@ -12,7 +12,7 @@ const Index = () => {
         <Header />
       </header>
 
-      <section>
+      <section className="main-section">
         <aside>
           <SideBar />
         </aside>
