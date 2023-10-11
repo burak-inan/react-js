@@ -275,6 +275,10 @@
       {
         "to": "/not-found-page",
         "title": "Not Found Page"
+      },
+      {
+        "to": "/unauthorized-page",
+        "title": "Unauthorized Page"
       }
       
     ]

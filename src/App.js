@@ -59,6 +59,7 @@ import axios from "axios";
 import HelloReact from "./components/02-hello-react/hello-react";
 import Loader from "./components/HomeWorks/loader/loader";
 import NotFoundPage from "./components/HomeWorks/not-found-page/not-found-page";
+import UnauthorizedPage from "./components/HomeWorks/unauthorized-page/unauthorized-page";
 
 const App = () => {
 
@@ -158,6 +159,7 @@ const App = () => {
                 <Route path="/todo-app" element={<TodoApp />} />
                 <Route path="/loader" element={<Loader />} />
                 <Route path="/not-found-page" element={<NotFoundPage />} />
+                <Route path="/unauthorized-page" element={<UnauthorizedPage />} />
               </Routes>
  
         </Col>
